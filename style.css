@@ -8,6 +8,7 @@
     width: 100%;
     height: 100%;
     background-image: url(bg\ svg.webp);
+    background-size: cover;
     background-color: #F8EFDC;
     overflow-x: hidden;
 
@@ -22,6 +23,7 @@
         /* background-color: rebeccapurple; */
         padding-left: 2vw;
         padding-top: 1vw;
+        
     }
     
     #container{
@@ -314,12 +316,57 @@ transform: translateY(-10vw);
     transform: translateX(67vw) translateY(-45vw);
 }
 #stick{
-    transform: translateX(60vw) translateY(-40vw);
+    transform: translateX(60vw) translateY(-65vw);
 
 }
 #page3{
     width: 100%;
     height: 50vw;
-    background-color: #FAE8B4;
-    position: absolute;
+    background-color: #FDEBB7;
+    background-image: url(bg\ svg.webp);
+    background-size: cover;
+    transform: translateY(-10vw);
+    display: flex;
+    align-items: center;
+}
+#leftthree{
+width: 60%;
+height: 90%;
+}
+#rightthree{
+    width: 50%;
+    height: 90%;
+}
+
+#rightoat{
+    width: 7vw;
+    transform: translateX(35vw);
+}
+#rightthree h1{
+    padding-top: 1vw;
+    padding-left: 3vw;
+    font-size: 8vw;
+    font-family: banchero;
+}
+#leftoat{
+   height: 3vw;
+    transform: translateX(6vw) ;
+}
+#gluten{
+    transform: translateX(35vw) translateY(4vw);
+}
+#svgpage3{
+    transform: translateX(28vw);
+}
+#flowerthree{
+    width: 12vw;
+    transform: translateY(-15vw) translateX(40vw);
+}
+#bottomfloat
+{
+    transform: translateY(-22vw);
+}
+#bottomfloattwo
+{
+    transform: translateY(-30vw) translateX(22vw) rotate(190deg);
 }
